@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-letras.ico" type="image/x-icon">
+    <title> Teste IMC </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header><h3> Descubra seu IMC</h3>
+    
+</header>
+<section>
+    <div id='alt'>Sua altura <input type="number" name="altura1" id="altura1"><br></div><br>
+
+    <div id= 'pes'>Seu peso <input type="number" name = "peso1" id= "peso1">
+    </div><br>
+
+    <div id= "idade">
+        Quantos anos voce tem ? <input type="number" name="idade" id="idad">
+    </div>
+
+    <div id= "genero"><br>
+        Qual seu sexo: <input type="radio" name="genero" id="fem" checked >Feminino
+        <input type="radio" name="genero" id="masc">Masculino</div>
+  
+   
+</section>
+    <br><div id='butt'><input type = "button" value="Calcular" onclick="calcular()"><br>
+        
+    </div>    
+    <br><div id = 'res_imc'> Vamos Começar! 
+    </div><br>
+    <div id = 'acomp'>
+       <!-- Sim<input type="checkbox" name="acompanhamento" id="acompan" >
+        não<input type="checkbox" name="acompanhamento" id="acompanh2">-->
+    </div>
+<footer>
+    <p>&copy; Keyse Nutri </p>
+</footer>
+    Receba Novidades <input id="receba" type="newsletter" name="" id="news">
+    <input type="button" value="Quero" onclick="queronews()">
+<script src = "script.js"> </script>
+    
+</body>
+</html>
